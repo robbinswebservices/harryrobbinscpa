@@ -1,0 +1,24 @@
+{
+  "name": "harryrobbinscpa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ws --open --hostname localhost -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robbinswebservices/harryrobbinscpa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robbinswebservices/harryrobbinscpa/issues"
+  },
+  "homepage": "https://github.com/robbinswebservices/harryrobbinscpa#readme",
+  "devDependencies": {
+    "local-web-server": "^5.2.1"
+  }
+}
