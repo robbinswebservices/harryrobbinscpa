@@ -3,5 +3,5 @@
 ## Local Development
 
 Requires Node.js
-Run `$ npm install` to install dependencies.
-Run `$ npm run start` to start local development server on port 8000.
+* Run `$ npm install` to install dependencies.
+* Run `$ npm run start` to start local development server on port 8000.
