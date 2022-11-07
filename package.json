@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/robbinswebservices/harryrobbinscpa#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
     "parcel": "^2.7.0",
     "posthtml-include": "^1.7.4"
   }
