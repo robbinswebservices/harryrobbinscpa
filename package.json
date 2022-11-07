@@ -2,11 +2,12 @@
   "name": "harryrobbinscpa",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ws --open --hostname localhost -d src"
+    "start": "parcel --port 8000",
+    "build": "parcel build"
   },
+  "source": "src/index.html",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/robbinswebservices/harryrobbinscpa.git"
@@ -19,6 +20,8 @@
   },
   "homepage": "https://github.com/robbinswebservices/harryrobbinscpa#readme",
   "devDependencies": {
-    "local-web-server": "^5.2.1"
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0",
+    "posthtml-include": "^1.7.4"
   }
 }
