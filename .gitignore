@@ -3,3 +3,7 @@ node_modules/
 
 # Optional npm cache directory
 .npmdir
+
+# Parcel Build and Cache
+dist/
+.parcel-cache/
