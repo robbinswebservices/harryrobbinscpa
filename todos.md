@@ -1,4 +1,8 @@
 1. navigation
-    -create HTML pages for all five pages
-    -add links to all pages of the site
-    -test that the links work for every page
+-add a highlight to the current page
+
+2. Meta Data
+-update the title on each page
+
+3. css
+-split css into separate files

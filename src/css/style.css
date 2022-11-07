@@ -11,38 +11,16 @@ h1 {
     width: 100%;
     margin-bottom: 0%;
 }
-/* span.a {
-    display: inline-block;
-    the default for span
-    width: 100px;
-    height: 20px;
-    padding: 5px;
-} */
+
 .flexlayout {
     display: flex;
     text-align: center
 }
+
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
-}
-
-
-/* EXAMPLES. Delete later */
-/* <span></span> */
-span {
-
-}
-
-/* <span id="span"></span>*/
-#span {
-
-}
-
-/* <span class="span"></span> */
-.span {
-
 }
 
 .menu {
@@ -71,4 +49,20 @@ span {
 }
 .navigationBackground {
     background-color: #333;
+}
+
+/* EXAMPLES. Delete later */
+/* <span></span> */
+span {
+
+}
+
+/* <span id="span"></span>*/
+#span {
+
+}
+
+/* <span class="span"></span> */
+.span {
+
 }
