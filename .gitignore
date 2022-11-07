@@ -6,3 +6,6 @@ node_modules/
 
 # copy for common questions
 docs/
+# Parcel Build and Cache
+dist/
+.parcel-cache/
