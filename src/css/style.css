@@ -67,7 +67,7 @@ ul {
     max-width: 80em;
     margin-left: auto;
     margin-right: auto;
-
+}
 /* EXAMPLES. Delete later */
 /* <span></span> */
 /* span {
@@ -83,3 +83,9 @@ ul {
 /* .span {
 
 } */
+
+pre {
+    max-width: 80em;
+    margin-left: auto;
+    margin-right: auto;
+}
