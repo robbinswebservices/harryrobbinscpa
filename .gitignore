@@ -4,6 +4,8 @@ node_modules/
 # Optional npm cache directory
 .npmdir
 
+# copy for common questions
+docs/
 # Parcel Build and Cache
 dist/
 .parcel-cache/
