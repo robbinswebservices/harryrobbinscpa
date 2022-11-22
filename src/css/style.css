@@ -4,12 +4,14 @@
 
 
 body {
-    font-family:Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Amiri', serif;
 }
 
-h1 {
+.banner {
     background-color: #385e9b;
     width: 100%;
     margin-bottom: 0%;
@@ -29,7 +31,6 @@ p {
     max-width: 80em;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Amiri', serif;
     line-height: 25px;
     font-size: 25px; 
 }
@@ -43,7 +44,6 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    font-family: 'Amiri', serif;
 }
 
 .menu {
@@ -61,11 +61,11 @@ ul {
     display: block;
     text-decoration: none;
 }
-.fullWidthContainer {
+.fullWidthContainer, .servicesBox {
     width: 100%;
     display: block;
 }
-.contentWidthContainer {
+.contentWidthContainer, .services {
     max-width: 80em;
     margin-left: auto;
     margin-right: auto;
@@ -73,34 +73,10 @@ ul {
 .navigationBackground {
     background-color: #333;
 }
-.servicesBox {
-    width: 100%;
-    display: block;
-}
-.services {
-    max-width: 80em;
-    margin-left: auto;
-    margin-right: auto;
-}
-/* EXAMPLES. Delete later */
-/* <span></span> */
-/* span {
-
-} */
-
-/* <span id="span"></span>*/
-/* #span {
-
-} */
-
-/* <span class="span"></span> */
-/* .span {
-
-} */
 
 img {
-    border-radius: 5px 5px 0 0;
-    border-style: solid
+    border-radius: 1px 1px 0 0;
+    border-style: none;
 }
 
 .flexbox {
@@ -112,7 +88,7 @@ img {
     margin-right: auto;
 }
 
-.container {
+.aboutphotocontainer {
     padding: 2px 16px;
 }
 
