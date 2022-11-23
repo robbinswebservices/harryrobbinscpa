@@ -11,6 +11,16 @@ body {
     font-family: 'Amiri', serif;
 }
 
+h2 {
+    font-family: 'Amiri', serif;
+    font-size: 25px;    
+}
+
+p {
+    line-height: 25px;
+    font-size: 25px; 
+}
+
 .banner {
     background-color: #385e9b;
     width: 100%;
@@ -22,28 +32,20 @@ body {
     font-size: 30px;    
 }
 
-h2 {
-    font-family: 'Amiri', serif;
-    font-size: 25px;    
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-p {
-    max-width: 80em;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 25px;
-    font-size: 25px; 
+img {
+    border-style: none;
+    max-width: 100%;
 }
 
 .flexlayout {
     display: flex;
     text-align: center
-}
-
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
 .menu {
@@ -74,9 +76,8 @@ ul {
     background-color: #333;
 }
 
-img {
+.portrait {
     border-radius: 1px 1px 0 0;
-    border-style: none;
 }
 
 .flexbox {
@@ -102,11 +103,4 @@ img {
 }
 .card:hover {
     transform: scale(1.1)
-}
-
-.col-1 a {
-    display: block;
-    text-decoration: none;
-    color: white;
-    margin-bottom: 10px;
 }
