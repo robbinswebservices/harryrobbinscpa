@@ -1,14 +1,27 @@
 * {
-box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 
 body {
-    font-family:Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Amiri', serif;
 }
 
-h1 {
+h2 {
+    font-family: 'Amiri', serif;
+    font-size: 25px;
+}
+
+p {
+    line-height: 25px;
+    font-size: 25px;
+}
+
+.banner {
     background-color: #385e9b;
     width: 100%;
     margin-bottom: 0%;
@@ -16,26 +29,7 @@ h1 {
     text-align: left;
     padding: 30px;
     font-family: 'Amiri', serif;
-    font-size: 30px;    
-}
-
-h2 {
-    font-family: 'Amiri', serif;
-    font-size: 25px;    
-}
-
-p {
-    max-width: 80em;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Amiri', serif;
-    line-height: 25px;
-    font-size: 25px; 
-}
-
-.flexlayout {
-    display: flex;
-    text-align: center
+    font-size: 30px;
 }
 
 ul {
@@ -45,37 +39,56 @@ ul {
     font-family: 'Amiri', serif;
 }
 
-.menu {
-        background: #333;
-        color: white;
-        display: flex;
-        justify-content: flex-end;
+img {
+    border-style: none;
+    max-width: 100%;
 }
+
+.flexlayout {
+    display: flex;
+    text-align: center
+}
+
+.menu {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .menu li:hover {
     background: rgb(70, 70, 70);
 }
+
 .menu a {
     color: white;
     padding: 12px 16px;
     display: block;
     text-decoration: none;
 }
-.fullWidthContainer {
-    width: 100%;
-    display: block;
-}
-.contentWidthContainer {
-    max-width: 80em;
-    margin-left: auto;
-    margin-right: auto;
-}
-.navigationBackground {
-    background-color: #333;
-}
+
+.fullWidthContainer,
 .servicesBox {
     width: 100%;
     display: block;
 }
+
+.contentWidthContainer,
+.services {
+    max-width: 80em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigationBackground {
+    background-color: #333;
+}
+
+.servicesBox {
+    width: 100%;
+    display: block;
+}
+
 .services {
     max-width: 80em;
     margin-left: auto;
@@ -83,35 +96,14 @@ ul {
 }
 
 
-/* EXAMPLES. Delete later */
-/* <span></span> */
-/* span {
-
-} */
-
-/* <span id="span"></span>*/
-/* #span {
-
-} */
-
-/* <span class="span"></span> */
-/* .span {
-
-} */
-
-
-img {
-    float: right;
-}
-
 .footer {
-   margin-top: 50px;
-   margin-bottom: none;
-   width: 100%;
-   padding: 25px 15%;
-   background: #333;
-   color: white;
-   display: flex;
+    margin-top: 50px;
+    margin-bottom: none;
+    width: 100%;
+    padding: 25px 15%;
+    background: #333;
+    color: white;
+    display: flex;
 }
 
 .footer div {
@@ -123,9 +115,9 @@ img {
 }
 
 .footer div h3 {
-font-weight: 300;
-margin-bottom: 30px;
-letter-spacing: 1px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
 }
 
 .col-1 a {
@@ -169,4 +161,35 @@ form button {
 
 button:hover {
     background: rgb(70, 70, 70);
+}
+
+.portrait {
+    border-radius: 1px 1px 0 0;
+    float: right;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    max-width: 80em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutphotocontainer {
+    padding: 2px 16px;
+}
+
+.card {
+    float: left;
+    transition: 0.3s;
+    width: 100%;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    margin: 25px;
+}
+
+.card:hover {
+    transform: scale(1.1)
 }
