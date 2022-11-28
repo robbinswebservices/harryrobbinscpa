@@ -12,3 +12,7 @@
 4. set up github pages
 
 5. Finish merging content
+
+6. design logo
+
+7. polish pass
