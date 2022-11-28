@@ -1,0 +1,21 @@
+.menu {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu li:hover {
+    background: rgb(70, 70, 70);
+}
+
+.menu a {
+    color: white;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.navigationBackground {
+    background-color: #333;
+}

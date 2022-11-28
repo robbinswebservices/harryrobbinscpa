@@ -1,25 +1,5 @@
-* {
-    box-sizing: border-box;
-}
-
-
-body {
-    margin: 0;
-    padding: 0;
-    margin: 0;
-    padding: 0;
-    font-family: 'Amiri', serif;
-}
-
-h2 {
-    font-family: 'Amiri', serif;
-    font-size: 25px;    
-}
-
-p {
-    line-height: 25px;
-    font-size: 25px; 
-}
+@import "base.css";
+@import "navigation.css";
 
 .banner {
     background-color: #385e9b;
@@ -29,18 +9,7 @@ p {
     text-align: left;
     padding: 30px;
     font-family: 'Amiri', serif;
-    font-size: 30px;    
-}
-
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-img {
-    border-style: none;
-    max-width: 100%;
+    font-size: 30px;
 }
 
 .flexlayout {
@@ -48,32 +17,17 @@ img {
     text-align: center
 }
 
-.menu {
-        background: #333;
-        color: white;
-        display: flex;
-        justify-content: flex-end;
-}
-.menu li:hover {
-    background: rgb(70, 70, 70);
-}
-.menu a {
-    color: white;
-    padding: 12px 16px;
-    display: block;
-    text-decoration: none;
-}
-.fullWidthContainer, .servicesBox {
+.fullWidthContainer,
+.servicesBox {
     width: 100%;
     display: block;
 }
-.contentWidthContainer, .services {
+
+.contentWidthContainer,
+.services {
     max-width: 80em;
     margin-left: auto;
     margin-right: auto;
-}
-.navigationBackground {
-    background-color: #333;
 }
 
 .portrait {
@@ -101,6 +55,7 @@ img {
     border-width: 2px 2px 2px 2px;
     margin: 25px;
 }
+
 .card:hover {
     transform: scale(1.1)
 }
