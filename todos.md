@@ -7,4 +7,8 @@
 -cards wrap effectively at diff screen sizes
 
 3. common questions
--
+-accordian for the questions
+
+4. set up github pages
+
+5. Finish merging content
