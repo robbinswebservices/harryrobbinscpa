@@ -3,8 +3,7 @@
 -split css into separate files
 
 2. create cards for services page
--description of services
--cards wrap effectively at diff screen sizes
+-rename divs
 
 3. common questions
 -accordian for the questions
