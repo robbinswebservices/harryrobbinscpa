@@ -1,5 +1,7 @@
 @import "base.css";
 @import "navigation.css";
+@import "services.css";
+@import "footer.css";
 
 .banner {
     background-color: #385e9b;
