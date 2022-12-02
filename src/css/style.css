@@ -123,25 +123,23 @@ img {
     object-fit: cover;
 }
 
-.card_container {
+.service_card_container {
     width: 375px;
     max-height: 600px;
-    margin: 30px;
-    margin-top: 20px;
+    margin: 15px;
+    margin-top: 10px;
     transition: 0.2s;
     padding: 10px;
 }
 
-.tax_card {
+.info_card {
     background-color: rgba(158, 163, 168, 0.692);
-    /* border: 1px solid black; */
-    /* padding: 4px; */
     border-radius: 6px;
     overflow: hidden;
     box-shadow: 1px 1px 6px black;
 }
 
-ul.a {
+ul.service_lists {
     list-style-type: disc;
     max-width: 300px;
     max-height: 600px;
@@ -164,12 +162,11 @@ ul.a {
     padding: 4px 4px 4px 4px;
 }
 
-.card_container:hover {
+.service_card_container:hover {
     transform: scale(1.05) 
-
 } 
 
-.name {
+.service_category {
     margin-top: 10px;
     font-size: 20px;
     font-weight: bold;
