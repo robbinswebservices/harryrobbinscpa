@@ -1,0 +1,58 @@
+
+
+.servicesPicture {
+    width: 100%;
+    /* border-radius: 12px; */
+    height: 200px;
+    object-fit: cover;
+}
+
+.service_card_container {
+    width: 375px;
+    max-height: 600px;
+    margin: 15px;
+    margin-top: 10px;
+    transition: 0.2s;
+    padding: 10px;
+}
+
+.info_card {
+    background-color: rgba(158, 163, 168, 0.692);
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 1px 1px 6px black;
+}
+
+ul.service_lists {
+    list-style-type: disc;
+    max-width: 300px;
+    max-height: 600px;
+    margin: 30px;
+    margin-top: 10px;
+    transition: 0.3s;
+    padding: 10px;
+}
+
+.cpaServices {
+        font-size: 16px;
+        color: black;
+        line-height: 150%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.card__details {
+    padding: 4px 4px 4px 4px;
+}
+
+.service_card_container:hover {
+    transform: scale(1.05) 
+} 
+
+.service_category {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
