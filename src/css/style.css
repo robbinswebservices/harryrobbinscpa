@@ -113,7 +113,11 @@ img {
 
 
 
-
+.servicesBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;}
 
 
 .servicesPicture {
@@ -153,9 +157,8 @@ ul.service_lists {
         font-size: 16px;
         color: black;
         line-height: 150%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
+    
 }
 
 .card__details {
@@ -172,3 +175,4 @@ ul.service_lists {
     font-weight: bold;
     text-align: center;
 }
+
