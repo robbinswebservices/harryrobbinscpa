@@ -76,31 +76,61 @@ img {
     background-color: #333;
 }
 
-.portrait {
-    border-radius: 1px 1px 0 0;
+
+
+
+
+
+/* code for homepage */
+
+
+.about_me_heading {
+    font-family: 'Amiri', serif;
+    font-size: 30px; 
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    margin-top: 35px;
+    margin-left: 400px;
+    margin-right: 150px;
+    margin-bottom: none;
 }
 
-.flexbox {
+.about_me_container {
     display: flex;
-    justify-content: flex-end;
-    align-content: center;
-    max-width: 80em;
+    max-width: 1000px;
+    margin-top: 5pxpx;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
+    
 }
 
-.aboutphotocontainer {
-    padding: 2px 16px;
+
+.about_contents {
+    display: flex;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: larger;
+    font-family: ;
+
 }
 
-.card {
-    float: left;
-    transition: 0.3s;
-    width: 100%;
-    border-style: solid;
-    border-width: 2px 2px 2px 2px;
-    margin: 25px;
+.portrait {
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    width: 2000px;
+    margin-left: 15px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border-radius: 25px 30px 40px 20px;
+    transition: 1.0s;
 }
-.card:hover {
+
+.portrait:hover {
     transform: scale(1.1)
 }
+
