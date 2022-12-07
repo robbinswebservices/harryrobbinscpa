@@ -112,6 +112,16 @@ img {
 
 
 
+/* code for service_cards page */
+
+.services_heading {
+display: flex;
+justify-content: center;
+font-weight: bolder;
+font-size: xx-large;
+margin-top: 40px;
+margin-bottom: 40px;
+}
 
 .servicesBox {
     display: flex;
