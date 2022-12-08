@@ -98,14 +98,16 @@ img {
 
 .about_me_container {
     display: flex;
-    
     max-width: 1000px;
     max-height: 475px;
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    box-shadow: -20px 20px 60px grey;;
+    box-shadow: -85px 85px grey;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     
 }
 
