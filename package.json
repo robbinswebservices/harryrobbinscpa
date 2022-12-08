@@ -5,8 +5,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel --port 8000",
-    "build": "parcel build --dist-dir docs --public-url /harryrobbinscpa --no-optimize --no-content-hash",
-    "debug": "parcel build --help"
+    "parcel:build": "parcel build --dist-dir docs --public-url /harryrobbinscpa",
+    "clean": "rm -rf docs/",
+    "build": "npm run clean && npm run parcel:build"
   },
   "source": "src/index.html",
   "repository": {
