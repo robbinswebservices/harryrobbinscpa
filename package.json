@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel --port 8000",
+    "start": "parcel --port 8000 --no-cache",
     "build": "parcel build"
   },
   "source": "src/index.html",
