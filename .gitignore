@@ -5,7 +5,7 @@ node_modules/
 .npmdir
 
 # copy for common questions
-docs/
+copy/
 # Parcel Build and Cache
 dist/
 .parcel-cache/
