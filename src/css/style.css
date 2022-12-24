@@ -75,8 +75,8 @@ img {
     margin-right: auto;
 }
 
-.foobar {
-    padding: 24px 0;
+.page_container {
+    padding: 40px 0;
 }
 .navigationBackground {
     background-color: #333;
@@ -92,34 +92,39 @@ img {
 
 .about_me_heading {
     font-family: 'Roboto', sans-serif;
-    font-size: 50; 
+    font-size: 40px; 
     display: flex;
     justify-content: start;
 }
 
 .services_heading {
     font-family: 'Roboto', sans-serif;
-    font-size: 50; 
+    font-size: 40px; 
     display: flex;
     justify-content: end;
 }
 
-.about_me_container {
+.contact_heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px; 
     display: flex;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;    
+    justify-content: start;
 }
 
-.about_services_container {
+.home_section_container {
     display: flex;
-    margin-top: auto;
+    margin-top: 30px;
     margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;  
-    background-color: rgb(218, 218, 243);  
+    margin-right: auto;  
 }
+.home_section_container.first {
+    margin-top: 0;
+}
+
+.about_services_background {
+    background-color: rgb(201, 201, 204); 
+}
+
 
 .about_contents {
     margin-top: 25px;
@@ -135,7 +140,6 @@ img {
     align-items: flex-end;
     width: 250;
     margin-left: none;
-    margin-right: 60px;
     /* margin-bottom: 25px; */
     border-radius: 25px 25px 25px 25px;
     /* transition: 1.0s; */
@@ -152,6 +156,17 @@ justify-content: center;
 padding: 25px;
 margin-top: 60px;
 }
+
+.fa-address-card {
+    color: rgb(4, 59, 2);
+    font-size: 150;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+
 .portrait:hover {
     /* transform: scale(1.1) */
 }
