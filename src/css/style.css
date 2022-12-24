@@ -1,6 +1,8 @@
 @import "fonts.css";
 @import "base.css";
+@import "spacing.css";
 @import "navigation.css";
+@import "home.css";
 
 .banner {
     width: 100%;
@@ -22,87 +24,13 @@
     display: block;
 }
 .contentWidthContainer, .services {
-    max-width: 80em;
+    max-width: 48em;
     margin-left: auto;
     margin-right: auto;
 }
 
 .page_container {
-    padding: 40px 0;
+    padding: 36px 0;
 }
 
-/* code for homepage */
-.about_me_heading {
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px; 
-    display: flex;
-    justify-content: start;
-}
-
-.services_heading {
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px; 
-}
-
-.contact_heading {
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px; 
-    display: flex;
-    justify-content: start;
-}
-
-.home_section_container {
-    display: flex;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;  
-    padding: 24px 0;
-}
-.home_section_container.first {
-    margin-top: 0;
-}
-
-.about_services_background {
-    background-color: rgb(201, 201, 204); 
-}
-
-
-.about_contents {
-    font-family: 'Karla', sans-serif;
-}
-
-.portrait {
-
-    justify-content:flex-end;
-    align-items: flex-end;
-    width: 250;
-    margin-left: none;
-    /* margin-bottom: 25px; */
-    border-radius: 25px 25px 25px 25px;
-    /* transition: 1.0s; */
-
-    /* box-shadow: 1px 1px 6px black; */
-}
-
-.fa-handshake {
-color: rgb(21, 21, 131);
-font-size: 180px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-padding: 54px;
-}
-
-.fa-address-card {
-    color: rgb(4, 59, 2);
-    font-size: 180px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 54px;
-}
-
-.portrait:hover {
-    /* transform: scale(1.1) */
-}
 
