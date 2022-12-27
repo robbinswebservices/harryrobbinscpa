@@ -3,6 +3,7 @@
 @import "spacing.css";
 @import "navigation.css";
 @import "home.css";
+@import "services.css";
 
 .banner {
     width: 100%;
