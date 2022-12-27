@@ -33,15 +33,3 @@
 .page_container {
     padding: 36px 0;
 }
-
-.card {
-    float: left;
-    transition: 0.3s;
-    width: 100%;
-    border-style: solid;
-    border-width: 2px 2px 2px 2px;
-    margin: 25px;
-}
-.card:hover {
-    transform: scale(1.1)
-}
