@@ -3,6 +3,7 @@
 @import "spacing.css";
 @import "navigation.css";
 @import "home.css";
+@import "services.css";
 
 .banner {
     width: 100%;
@@ -32,5 +33,3 @@
 .page_container {
     padding: 36px 0;
 }
-
-
