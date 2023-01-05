@@ -1,36 +1,14 @@
 @import "fonts.css";
+@import "layout.css";
 @import "base.css";
+
 @import "spacing.css";
 @import "navigation.css";
 @import "home.css";
 
 .banner {
     width: 100%;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 30px;
-    background-color: #385e9b;
-    font-size: 30px;    
-    text-align: left;
+    height: 4px;
+        /* background-color: #385e9b; */
+    background-color: rgb(100, 100, 100);
 }
-
-.flexlayout {
-    display: flex;
-    text-align: center
-}
-
-.fullWidthContainer, .servicesBox {
-    width: 100%;
-    display: block;
-}
-.contentWidthContainer, .services {
-    max-width: 48em;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.page_container {
-    padding: 36px 0;
-}
-
-
