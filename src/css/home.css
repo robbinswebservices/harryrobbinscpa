@@ -20,7 +20,7 @@
 }
 
 .about_services_background {
-    background-color: #D1CCC9; 
+    background-color: #DAE0E6; 
 }
 
 .portrait {
@@ -50,15 +50,19 @@
     padding: 0 54px;
 } */
 .fa-handshake {
-    color: rgb(21, 21, 131);
+    color: #034b80;
 }
 
 .fa-address-card {
-        color: rgb(45, 174, 248);
+        color: #0597ff;
     /* color: rgb(59, 46, 2); */
 }
 
 .fa-comments-dollar {
     /* color: rgb(202, 142, 13); */
-    color: rgb(13, 129, 9);
+    color: #06544b;
+}
+
+.link {
+    color: #034b80;
 }
