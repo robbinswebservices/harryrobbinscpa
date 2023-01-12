@@ -1,0 +1,68 @@
+.services_heading {
+    margin-bottom: 36px;
+    text-align: center;
+}
+    
+.services_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 52px
+}
+
+.services_picture {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.service_card_container {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s;
+    background-color: rgba(203, 203, 204, 0.692);
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px black;
+}
+
+.service_card_container:hover {
+    transform: scale(1.05); 
+} 
+
+.service_lists {
+    font-size: 18px;
+    font-weight: normal;
+    list-style-type: circle;
+    letter-spacing: 0.1em;
+    padding-left: 20px;
+}
+
+.service_lists li + li {
+    margin-top: 0.6em;
+}
+
+.service_category {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card_details {
+    padding: 20px 30px;
+}
+
+.card {
+    float: left;
+    transition: 0.3s;
+    width: 100%;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    margin: 25px;
+}
+.card:hover {
+    transform: scale(1.1)
+}
