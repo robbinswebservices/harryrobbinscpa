@@ -28,15 +28,7 @@
     align-items: flex-end;
     width: 250px;
     margin-left: 24px;
-    /* margin-bottom: 25px; */
     border-radius: 9px;
-    /* transition: 1.0s; */
-
-    /* box-shadow: 1px 1px 6px black; */
-}
-
-.portrait:hover {
-    /* transform: scale(1.1) */
 }
 
 .icon {
@@ -46,20 +38,16 @@
     justify-content: center;
     
 }
-/* .fa-handshake, .fa-address-card, .fa-comments-dollar {
-    padding: 0 54px;
-} */
+
 .fa-handshake {
     color: #034b80;
 }
 
 .fa-address-card {
-        color: #0597ff;
-    /* color: rgb(59, 46, 2); */
+    color: #0597ff;
 }
 
 .fa-comments-dollar {
-    /* color: rgb(202, 142, 13); */
     color: #06544b;
 }
 
