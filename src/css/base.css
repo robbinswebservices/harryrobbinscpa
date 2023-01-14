@@ -49,3 +49,16 @@ img {
     border-style: none;
     max-width: 100%;
 }
+
+a:link, a:visited {
+    color: #023255;
+}
+a:hover, a:focus {
+    color: #034b80;
+}
+.light-link:link, .light-link:visited {
+    color: #dae0e6;
+}
+.light-link:hover, .light-link:focus {
+    color: white;
+}
