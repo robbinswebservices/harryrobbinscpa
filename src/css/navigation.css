@@ -8,7 +8,7 @@
     margin-right: 32px;
     line-height: 1.1;
 }
-.menu li:hover {
+.menu a:hover, .menu a:focus {
     background-color: #024A7D;
 }
 .menu a {
@@ -24,7 +24,7 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: #023255;
-    border-bottom: 4px solid rgb(100, 100, 100);
+    border-bottom: 4px solid #555759;
 }
 
 .logo {

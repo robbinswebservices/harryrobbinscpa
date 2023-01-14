@@ -23,7 +23,7 @@
     display: flex;
     flex-direction: column;
     transition: 0.2s;
-    background-color: rgba(203, 203, 204, 0.692);
+    background-color: #c9cfd4;
     border-radius: 6px;
     overflow: hidden;
     box-shadow: 1px 1px 10px black;
@@ -36,8 +36,7 @@
 .service_lists {
     font-size: 18px;
     font-weight: normal;
-    list-style-type: circle;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.02em;
     padding-left: 20px;
 }
 
@@ -48,7 +47,6 @@
 .service_category {
     font-size: 28px;
     font-weight: bold;
-    text-align: center;
 }
 
 .card_details {
