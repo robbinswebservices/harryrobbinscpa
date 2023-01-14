@@ -1,0 +1,48 @@
+/* code for homepage */
+.about_me_heading {
+    font-size: 40px; 
+}
+
+.home_section_container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;  
+    padding: 36px 0;
+    gap: 54px;
+}
+
+.about_services_background { 
+    background-color: #c9cfd4; 
+}
+
+.portrait {
+    justify-content:flex-end;
+    align-items: flex-end;
+    width: 250px;
+    margin-left: 24px;
+    border-radius: 9px;
+}
+
+.icon {
+    font-size: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.fa-handshake {
+    color: #034b80;
+}
+
+.fa-address-card {
+    color: #0597ff;
+}
+
+.fa-comments-dollar {
+    color: #06544b;
+}
+
+.link {
+    color: #034b80;
+}

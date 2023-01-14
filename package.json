@@ -4,8 +4,10 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel --port 8000",
-    "build": "parcel build"
+    "start": "parcel --port 8000 --no-cache",
+    "parcel:build": "parcel build --dist-dir docs",
+    "clean": "rm -rf docs/",
+    "build": "npm run clean && npm run parcel:build"
   },
   "source": "src/index.html",
   "repository": {

@@ -1,111 +1,12 @@
 @import "fonts.css";
+@import "base.css";
+@import "layout.css";
+@import "spacing.css";
 
-* {
-    box-sizing: border-box;
-}
-
-
-body {
-    margin: 0;
-    padding: 0;
-    margin: 0;
-    padding: 0;
-    font-family: 'Karla', sans-serif;
-}
-
-h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;    
-}
-
-p {
-    line-height: 25px;
-    font-size: 25px; 
-}
-
-.banner {
-    background-color: #385e9b;
-    width: 100%;
-    margin-bottom: 0%;
-    margin-top: 0;
-    text-align: left;
-    padding: 30px;
-    font-family: 'Amiri', serif;
-    font-size: 30px;    
-}
-
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-img {
-    border-style: none;
-    max-width: 100%;
-}
-
-.flexlayout {
-    display: flex;
-    text-align: center
-}
-
-.menu {
-        background: #333;
-        color: white;
-        display: flex;
-        justify-content: flex-end;
-}
-.menu li:hover {
-    background: rgb(70, 70, 70);
-}
-.menu a {
-    color: white;
-    padding: 12px 16px;
-    display: block;
-    text-decoration: none;
-}
-.fullWidthContainer, .servicesBox {
-    width: 100%;
-    display: block;
-}
-.contentWidthContainer, .services {
-    max-width: 80em;
-    margin-left: auto;
-    margin-right: auto;
-}
-.navigationBackground {
-    background-color: #333;
-}
-
-.portrait {
-    border-radius: 1px 1px 0 0;
-}
-
-.flexbox {
-    display: flex;
-    justify-content: flex-end;
-    align-content: center;
-    max-width: 80em;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.aboutphotocontainer {
-    padding: 2px 16px;
-}
-
-.card {
-    float: left;
-    transition: 0.3s;
-    width: 100%;
-    border-style: solid;
-    border-width: 2px 2px 2px 2px;
-    margin: 25px;
-}
-.card:hover {
-    transform: scale(1.1)
-}
+@import "navigation.css";
+@import "footer.css";
+@import "home.css";
+@import "services.css";
 
 .accordion {
     width: auto;
@@ -163,5 +64,3 @@ img {
     content: '-';
     font-size: 30px;
   }
-
-  
