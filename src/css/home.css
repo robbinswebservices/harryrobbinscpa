@@ -3,14 +3,6 @@
     font-size: 40px; 
 }
 
-.services_heading {
-    font-size: 40px; 
-}
-
-.contact_heading {
-    font-size: 40px; 
-}
-
 .home_section_container {
     display: flex;
     margin-left: auto;
@@ -20,7 +12,7 @@
 }
 
 .about_services_background { 
-    background-color: #B1B6BA; 
+    background-color: #c9cfd4; 
 }
 
 .portrait {
@@ -49,8 +41,4 @@
 
 .fa-comments-dollar {
     color: #06544b;
-}
-
-.link {
-    color: #034b80;
 }
