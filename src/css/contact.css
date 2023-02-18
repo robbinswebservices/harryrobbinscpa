@@ -13,3 +13,19 @@ height: auto;
 width: 586px;
 padding: 4px;
 }
+
+@media (max-width: 890px) {
+    .blue_logo {
+        display: none;
+    }
+
+    .contact_container {
+    max-width: 48em;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 0;
+    padding: 0; 
+    }
+
+
+}
