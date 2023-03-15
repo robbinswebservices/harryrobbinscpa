@@ -2,7 +2,7 @@
     margin-bottom: 36px;
     text-align: center;
 }
-    
+
 .services_box {
     display: flex;
     flex-direction: row;
@@ -30,8 +30,8 @@
 }
 
 .service_card_container:hover {
-    transform: scale(1.05); 
-} 
+    transform: scale(1.05);
+}
 
 .service_lists {
     font-size: 18px;
@@ -40,7 +40,7 @@
     padding-left: 20px;
 }
 
-.service_lists li + li {
+.service_lists li+li {
     margin-top: 0.6em;
 }
 
@@ -61,6 +61,19 @@
     border-width: 2px 2px 2px 2px;
     margin: 25px;
 }
+
 .card:hover {
     transform: scale(1.1)
+}
+
+@media (max-width: 890px) {
+    .services_box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service_card_container {
+        width: 330px;
+        height: auto;
+    }
 }

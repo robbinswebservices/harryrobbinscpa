@@ -8,9 +8,12 @@
     margin-right: 32px;
     line-height: 1.1;
 }
-.menu a:hover, .menu a:focus {
+
+.menu a:hover,
+.menu a:focus {
     background-color: #024A7D;
 }
+
 .menu a {
     display: block;
     padding: 42px 20px;
@@ -31,4 +34,53 @@
     padding: 16px;
     width: 120px;
     margin-left: 16px;
+}
+
+/* @media (max-width: 959px) {
+    .navcontainer {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .menu {
+        flex-direction: column; 
+        font-size: 18px;
+        margin-right: 0;
+    }
+
+    .menu a {
+        padding: 16px;
+    }
+
+    .logo {
+        display: none;
+    }
+    
+} */
+
+@media (max-width: 750px) {
+    .navcontainer {
+    flex-flow: row;
+    align-items: center;
+    }
+
+    .menu {
+    font-size: 16px;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 16px;
+    font-size: 16px;
+    }
+
+    .menu a {
+    padding: 8px;
+    }
+
+    .logo {
+    display: flex;
+    width: 130px;
+    padding: 16px;
+    margin: 0;
+    }
 }

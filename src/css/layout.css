@@ -12,3 +12,12 @@
 .page_container {
     padding: 36px 0;
 }
+
+@media (max-width: 1104px) {
+    .contentWidthContainer {
+    max-width: 100%;
+    padding: 0 24px; 
+    gap: 0;
+    }
+    
+}
