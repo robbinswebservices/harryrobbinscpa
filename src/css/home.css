@@ -21,6 +21,7 @@
     width: 250px;
     margin-left: 24px;
     border-radius: 9px;
+    border: 2px solid #023255;
 }
 
 .icon {
@@ -54,9 +55,12 @@
     }
 
     .portrait {
-        width: 55%;
+        width: 70%;
         height: auto;
-        align-self: flex-start;
+        align-self: center;
+        /* box-shadow: 0 0 0 4px #023255; */
+        border: 2px solid #023255;
+
     }
 
     .home_section_container .icon {

@@ -64,3 +64,17 @@
 .card:hover {
     transform: scale(1.1)
 }
+
+@media (max-width: 890px) {
+    .services_box {
+        display: flex;
+        flex-direction: column;
+}
+
+
+.service_card_container {
+    width: 330px;
+    height: auto;
+}
+        
+}
