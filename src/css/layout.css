@@ -15,9 +15,9 @@
 
 @media (max-width: 1104px) {
     .contentWidthContainer {
-        max-width: 100%;
-        padding: 0 24px; 
-        gap: 0;
+    max-width: 100%;
+    padding: 0 24px; 
+    gap: 0;
     }
     
 }
